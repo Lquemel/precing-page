@@ -1,0 +1,82 @@
+body{
+    color: var(--cor-da-fonte);
+    background-color: var(--cor-de-fundo);
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.titulo img{
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+.conteudo-planos{
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.conteudo-planos .plano{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    height: 300px;
+    padding: 0px 20px;
+    background-color: var(--cor-dos-planos);
+    border-radius: 9px;
+    transition:0.4s ease-in-out;
+}
+
+.conteudo-planos .plano .tipo-de-plano{
+    font-size: 11px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.conteudo-planos .plano h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.conteudo-planos .plano p{
+    font-size: 12px;
+    margin-top: 18px;
+}
+.conteudo-planos .plano .beneficio::before{
+    content:"";
+    background: url(../image/corrigir.png) no-repeat center;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 5px;
+    filter: invert(100%);
+}
+.conteudo-planos .plano a{
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--cor-do-botao);
+    padding: 8px;
+    margin-top: auto;
+    margin-bottom: 23px;
+    font-size: 13px;
+    transition: 0.3s ease-in-out;
+}
+.conteudo-planos .plano a:hover{
+    background-color: var(--cor-do-botao-hover);
+    box-shadow: 0px 0px 10px 1px var(--cor-do-botao-hover);
+    opacity: 90%;
+}
+    
+   
+.conteudo-planos .plano:hover{
+    background-color: var(--cor-dos-planos-hover);
+    box-shadow: 0px 0px 30px 10px rgba(135, 38, 99, 0.622);
+}

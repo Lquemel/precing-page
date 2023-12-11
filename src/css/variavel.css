@@ -1,0 +1,8 @@
+:root{
+    --cor-de-fundo:#0E0E12;
+    --cor-dos-planos: #262425a4;
+    --cor-dos-planos-hover: rgba(74, 22, 85, 0.455);
+    --cor-do-botao: rgba(40, 39, 41, 0.877);
+    --cor-do-botao-hover: #c83ac6;
+    --cor-da-fonte: #fdfdfde0;
+}

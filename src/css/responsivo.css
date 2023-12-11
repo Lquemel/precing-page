@@ -1,0 +1,13 @@
+@media(max-width: 764px){
+    main{
+        height:auto;
+        margin: 0 ;
+    }
+    .titulo img{
+        margin-top: 25px;
+    }
+    .conteudo-planos{
+        gap: 30px;
+    }
+
+}
